@@ -65,7 +65,7 @@ export default function Page() {
               </button>
 
               <button onClick={handleNoClick} className="no-button">
-                {noCount === 0 ? "No" : getNoButtonText()}
+                {noCount === 0 ? "Ño" : getNoButtonText()}
               </button>
             </div>
           </>
