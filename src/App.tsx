@@ -13,21 +13,22 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "Ñop",
-      "de vrd?",
+      "de vdd?",
       "segura?",
       "no es mutuo",
       "chi?",
       "d vrd estas segura?",
       "oño",
-      "d vrd ya fue",
+      "d vdd ya fue",
       "segura?",
       "yop pipipi",
       "pipipi",
       "chi?",
       "👺👺👺",
       "ya fue",
-      "d vrd?",
+      "d vdd?",
       "no es reciproco",
+      "ño🥺",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
