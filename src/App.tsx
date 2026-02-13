@@ -34,21 +34,26 @@ export default function Page() {
   };
 
   return (
-    <div className="centered-container">      
+    <div className="centered-container">
       <div className="valentine-container">
         {yesPressed ? (
           <>
-            <img src="https://i.gifer.com/Pak.gif" alt="Cute animated illustration" />
-            <div className="text-container">yay!!! TE AMO MUTO MUTO!!!</div>
+            <img
+              src="https://www.gifcen.com/wp-content/uploads/2024/03/pochacco-gif-7.gif"
+              alt="Cute animated illustration"
+            />
+            <div className="text-container">👅👅👅!!! TE AMO MUTO MUTO!!!</div>
           </>
         ) : (
           <>
             <img
               className="h-[200px]"
               style={{ width: "400x", height: "240px" }}
-              src="https://64.media.tumblr.com/44437aaa3af65ef5b5dc25b2cf1e81d1/6acc7d78ea83e207-45/s400x600/5b30035952803850ed3136fbe760ceff97ee8d19.gif"
+              src="https://i.gifer.com/Pak.gif"
             />
-            <h1 className="text-container">quieres ser mi san valentin? 🥺🥺🥺</h1>
+            <h1 className="text-container">
+              ¿quieres ser mi san valentin again? 🥺🥺🥺
+            </h1>
             <div>
               <button
                 className={"yes-button"}
